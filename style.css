@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+}
+.main-container-one {
+  width: 100%;
+  display: flex;
+  min-height: 45vh;
+}
+.main-container-one-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-container-one-left h1 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: hsl(300, 43%, 22%);
+  width: 55%;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.main-container-one-left p{
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(300, 43%, 22%);
+  width: 55%;
+  line-height: 20px;
+}
+.main-container-one-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rating-one,
+.rating-two,
+.rating-three {
+  display: flex;
+  width: 55%;
+  height: 45px;
+  background-color: hsl(300, 24%, 96%);
+  margin-top: 20px;
+  border-radius: 7px;
+  padding-top: 15px;
+}
+.rating-two{
+  margin-left: 30px;
+}
+.rating-three{
+  margin-left: 60px;
+}
+.star-icon{ 
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 10px;
+}
+.star-icon img{
+  width: 17px;
+  height: 15px;
+}
+.rating-one p,
+.rating-two p,
+.rating-three p{
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: hsl(300, 43%, 22%);
+  padding-top: 3px;
+}
+.main-container-two {
+  width: 100%;
+  display: flex;
+  min-height: 45vh;
+  padding-left: 130px;
+}
+.card {
+  width: 24%;
+  height: 180px;
+  background-color: hsl(300, 43%, 22%);
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 7px;
+}
+.main-container-two :nth-child(2) {
+  margin-top: 15px;
+}
+.main-container-two :nth-child(3) {
+  margin-top: 30px;
+}
+.review {
+  color: hsl(0, 0%, 100%);
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  width: 92%;
+  line-height: 18px;
+}
+.name {
+  display: flex;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.name img {
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.verified-buyer {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+  margin-top: 3px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
